@@ -35,12 +35,12 @@ def run(iters, target_file, url=url):
             links.add(item)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
         print(f"iter {i+1} / {iters}: {len(links)} items")
-        df = pd.DataFrame({"Link": list(links)})
+        df = pd.DataFrame({"Link": list(links), 'ImagePath': []})
         df.to_csv(target_file, index=False)
         time.sleep(3)
 
     print(f"writing {len(links)} items to {target_file}")
-    df = pd.DataFrame({"Link": list(links)})
+    df = pd.DataFrame({"Link": list(links), 'ImagePath': []})
     df.to_csv(target_file, index=False)
             
     driver.quit()
