@@ -20,5 +20,8 @@ The dataset is no longer available, only the scripts will be provided.
 ## The original dataset
 The original data was assembled by scraping anime icon boards. Anime icon boards have cropped head shots of anime characters, although they may be filtered/given other effects
 
-## Data overview
-Data may have various crops/filters/other effects used on them. Dataset is scraped from various Pinterest boards with no further preprocessing.
+## Data sources
+
+https://www.pinterest.ca/aweyourecute/anime-icons/
+
+https://www.pinterest.ca/kasumi_maeko/anime-icons/
