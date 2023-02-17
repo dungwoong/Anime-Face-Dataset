@@ -1,7 +1,7 @@
-# Pinterest Downloader
+# Anime Face Dataset
 The original goal of this script was to assemble an anime face dataset from Pinterest.
 
-I was inspired by the sheer lack of quality of existing datasets, to create my own script to scrape pinterest.
+I was inspired by the sheer lack of quality of existing datasets, to create my own script to scrape Pinterest.
 
 ## Sample Images from the dataset:
 <p align="center">
