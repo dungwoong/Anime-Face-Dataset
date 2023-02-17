@@ -7,6 +7,7 @@ import sys
 
 def run(dfpath, newfolder):
     df = pd.read_csv(dfpath)
+    length = len(df)
 
     links = df.loc[:5, "Link"]
 
@@ -21,7 +22,7 @@ def run(dfpath, newfolder):
         if not pd.isnull(row["ImagePath"]):
             print(f"ALREADY DONE {link}")    
             continue
-        print(f"retrieving {link}")
+        print(f"{idx}/{length}: retrieving {link}")
         num = "{:06d}".format(idx)
         fpath = f"{newfolder}/{num}.jpg"
         print(fpath)
@@ -39,7 +40,7 @@ if __name__ == "__main__":
         help="output folder path")
     parser.add_argument(
         "--csv",
-        type=int,
+        type=str,
         required=True,
         help="csv with columns Link and ImagePath")
     args = parser.parse_args()
