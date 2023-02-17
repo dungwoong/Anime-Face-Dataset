@@ -1,7 +1,9 @@
-# Anime Face Dataset
+# Pinterest Scraper
 The original goal of this script was to assemble an anime face dataset from Pinterest.
 
 I was inspired by the sheer lack of quality of existing datasets, to create my own script to scrape Pinterest.
+
+Due to copyright issues, I probably shouldn't release the dataset, but the scraping scripts will be made available here.
 
 ## Sample Images from the dataset:
 <p align="center">
@@ -10,10 +12,9 @@ I was inspired by the sheer lack of quality of existing datasets, to create my o
 
 The dataset is no longer available, only the scripts will be provided.
 
-## How to assemble the dataset
+## Sample usage
 ```
 > python geturls --iters 200 --outfile links.csv --url https://www.pinterest.ca/kasumi_maeko/anime-icons/
-> # add a column ImagePath to the link csv
 > python downloadpins --csv links.csv --outfolder imgs
 ```
 
