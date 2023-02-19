@@ -26,3 +26,5 @@ The original data was assembled by scraping anime icon boards. Anime icon boards
 https://www.pinterest.ca/aweyourecute/anime-icons/
 
 https://www.pinterest.ca/kasumi_maeko/anime-icons/
+
+https://www.pinterest.ca/iMarin_G/anime-de-perfil-anime-profile-picture/
